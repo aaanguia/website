@@ -1,0 +1,192 @@
+body{
+    background-color: #FAFAFA;
+    width: 90%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+    font-weight: 500;
+}
+
+#asu{
+    color: #FFB310;
+}
+
+#fenoto{
+    color: maroon
+}
+
+
+#udemy{
+    color: #FF1948;
+}
+#Text a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Text a:visited{
+    text-decoration: none;
+}
+/* Nav MENU ============================== */
+
+#Header{
+    float: left;
+}
+
+#navigation{
+    float: right;
+}
+
+#greetings{
+    clear: both;
+}
+
+#Text{
+    width: 45%;
+    float:left;
+}
+
+#prof{
+    margin-left: 300px;
+    width: 300px;
+    height: 300px;
+    position: right;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+nav{
+    display: block;
+    margin-left: auto;
+    font-size: 23px;
+}
+
+nav a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #959DA5;
+}
+
+nav li{
+    display: inline;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+
+.visited{
+    color: #1B1F23;
+}
+
+nav li{
+    display: inline;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1B1F23;
+}
+
+
+.hikeCrops{
+    width: 100px;
+    heigh: auto;
+}
+
+#clear{
+    clear: both;
+}
+
+#hikes{
+    clear: both;
+    margin: auto 0;
+    width: 60%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #center{
+      margin-left: 325px;
+  }
+
+
+
+/* SOCIAL FOOTER MENU ============================== */
+
+footer{
+    margin-top: 15px;
+    clear: both;
+}
+
+.social-menu {
+    float:right;
+    padding:0;
+    list-style-type: none;
+    margin:7px 0;
+}
+
+.social-menu li {
+    float:left;
+    margin:0 2px;
+}
+
+.social-menu a {
+    padding:10px;
+    display:inline-block;
+    border-radius:20px; 
+}
+
+.social-menu a:hover {
+    background-color:#fafafa;
+}
+
+.social-menu .icon {
+    color:#aaaaaa;
+    font-size:20px;
+    line-height:20px;
+    text-align:center;
+    transition: color 0.2s ease-out;
+    height:20px;
+    width:20px;
+}
+
+
+.social-menu a:hover .icon.fa-handshake-f {
+    color:#3b5998;
+}
+
+.social-menu a:hover .icon.fa-twitter {
+    color:#55acee;
+}
+
+.social-menu a:hover .icon.fa-linkedin-in {
+    color:#0077b5;
+}
+
+.social-menu a:hover .icon.fa-dribbble {
+    color:#ea4c89;
+}
+
+.footerSlide{
+    text-align: center;
+}
